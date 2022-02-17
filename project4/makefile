@@ -1,2 +1,2 @@
-all: xkcdpwgen.cpp
+all: xkcdpwgen.cpp words.txt
 	g++ xkcdpwgen.cpp -o xkcdpwgen
