@@ -3,6 +3,10 @@
 #include <fstream>
 
 
+/*
+ *  This is my first C++ program!
+ * */
+
 // name of used wordlist (in same folder)
 const std::string wordlist_name = "words.txt";
 // Word input buffer
