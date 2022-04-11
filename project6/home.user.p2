@@ -1,0 +1,17 @@
+# Last Modified: Tue Mar 29 13:16:13 2022
+#include <tunables/global>
+/home/mothwise/p2 {
+  /etc/hostid r,
+  /etc/timezone r,
+  /etc/passwd r,
+  /etc/hosts r,
+  /home/mothwise/.project2/config w,
+  /home/mothwise/template r,
+  /proc/uptime r,
+  /proc/filesystems r,
+  /proc/cpuinfo r,
+  /tmp/project* rw,
+  /var/log/syslog r,
+  /{usr/,}lib{,32,64}/**.so*       mr,
+  network inet  stream,
+  }
